@@ -162,9 +162,6 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
         <div><a href="javascript:playlistJump(4)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/5.jpg" width="150px" height="84px" /><div class="slidetext">${message("video4.title_" + language)}</div></a></div>
         <div><a href="javascript:playlistJump(5)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/6.jpg" width="150px" height="84px" /><div class="slidetext">${message("video5.title_" + language)}</div></a></div>
         <div><a href="javascript:playlistJump(6)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/7.jpg" width="150px" height="84px" /><div class="slidetext">${message("video6.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(7)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/8.jpg" width="150px" height="84px" /><div class="slidetext">${message("video7.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(8)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/9.jpg" width="150px" height="84px" /><div class="slidetext">${message("video8.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(9)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/10.jpg" width="150px" height="84px" /><div class="slidetext">${message("video9.title_" + language)}</div></a></div>  
       </div>
       <a class="rightarrow" href="javascript:$('.carousel').slickNext();"><a>
     </div>
@@ -233,7 +230,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('adidasplayer', {
   playerVars: {
     listType:'playlist',
-    list: 'PL32B37B476338F340'
+    list: 'PLvb-ozNJbiMhzMDYcIo8HxpwNl-g4h534'
   },
          
   events: {
