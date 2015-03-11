@@ -13,7 +13,7 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 #header {margin:0 auto; width:950px; float:none;}
 #content {width:100%!important; background:none !important}
 
-
+.wideTitle {margin: 20px 0; text-align: center; font-family: GillSans !important ; font-size: 14px; color: #000000 }
 .holder {max-width: 950px; margin: 0 auto; position: relative;}
 .videoholder {position: absolute; top:35px;}
 .imageoverlay {position: absolute; top:107px; left:81px; z-index: 5; width:790px; background: url(<@imgURL src="overlay.jpg" />); background-size: 100% auto}
@@ -21,7 +21,7 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 
 .carousel {height: 300px; overflow: hidden; width:910px; position: absolute;left:24px; font-family:GillSans; font-size: 12px}
 .carousel a {color: #000000; text-decoration: none}
-.slidetext {padding: 10px 0 0 0; line-height: 14px}
+.slidetext {padding: 10px 0 0 0; line-height: 14px; text-transform: uppercase;}
 .carouselholder {width: 950px; position: relative; margin-top: 20px; border-bottom: 1px solid #cccccc; height: 140px}
 .carousel div {margin: 0 10px 0 0}
 .leftarrow {width: 26px; height: 124px; display: block; background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/carousel-arrow_left@2x.png) no-repeat center; position: absolute; top:0; left: 0;  background-size: 100% }
@@ -48,26 +48,28 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 
 .productHolder {margin-top: 30px}
 .videoAndTileHolder {height: 589px}
-.adidastitle {position: absolute; top: 18px; width: 100%; height: 30px; font-family: "ModernNAP-Text"; font-size: 24px; text-align: center; text-transform: uppercase;}
-.adidasStrapline { width: 60%; left:20%; font-family: gillsanslight; position: absolute; top: 52px; text-align: center; font-size: 16px}
+.adidastitle {position: absolute; top: 28px; width: 100%; height: 30px; font-family: "ModernNAP-Text"; font-size: 24px; text-align: center; text-transform: uppercase;}
+.adidasStrapline { width: 74%; left:13%; font-family: gillsanslight; position: absolute; top: 72px; text-align: center; font-size: 16px}
 
 .contentslide {width: 950px; height: 498px; position: relative;}
 .imagearea1 {position: absolute; top:0; left:0; z-index: 2}
 .imagearea2 {position: absolute; top:0; left:0; z-index: 2}
-.contentslidetext {position: absolute; left: 580px; top:50px; padding:40px; background-color: #ffffff; border: 1px solid #a1a1a1; height: 320px; width: 240px; z-index: 5 }
+.contentslidetext {position: absolute; left: 580px; top:50px; padding:40px; background-color: #ffffff;height: 320px; width: 240px; z-index: 5; border: none}
 .contentcarouselholder {position: relative; width: 100%; float: left}
 
 .leftarrowcontent {width: 26px; height: 500px; display: block; background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/content-arrow_left@2x.png) no-repeat center;  position: absolute; top:0; left: 0; background-size: 50% ; z-index: 10; display: none}
 .rightarrowcontent {width: 26px; height: 500px; display: block; background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/content-arrow_right@2x.png) no-repeat center;position: absolute; top:0; left: 920px; background-size: 50%; z-index: 10 }
-.contentslidetitle {font-size: 24px;font-family: "ModernNAP-Text"; margin-bottom: 50px }
+.contentslidetitle {font-size: 24px;font-family: "ModernNAP-Text"; margin-bottom: 50px; text-transform: uppercase; }
 .contentslidecontent {font-family: gillsanslight; font-size: 14px; line-height: 19px}
 
-.videooverlaytitle {width: 100%;  font-size:32px ;font-family: "ModernNAP-Display"; text-align: center; color: #ffffff; position: absolute; top: 10%; text-transform: uppercase; }
-.videooverlaysubtitle {width: 100%;  font-size:42px ;font-family: "ModernNAP-DisplayItalic"; text-align: center; color: #000000; position: absolute; bottom: 10% }
+.videooverlaytitle {width: 100%;  font-size:52px ;font-family: "ModernNAP-Display"; text-align: center; color: #000000; position: absolute; top: 66%; text-transform: uppercase; }
+.videooverlaysubtitle {width: 100%;  font-size:32px ;font-family: "ModernNAP-DisplayItalic"; text-align: center; color: #000000; position: absolute; bottom: 12% }
 .adidasAdvert {width: 451px; height: 354px; float: left; background-color: #454545; display: block; background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/advertbg.jpg); margin-left:20px; position: relative;}
 
 .advertLine1 {position: absolute; width: 140px; height: 45px; top: 240px; left: 25px; font-family: gillsanslight; font-size: 13px; color: #ffffff}
 .advertLine2 {position: absolute; width: 140px; height: 45px; top: 275px; left: 25px; font-family: "ModernNAP-Display"; font-size: 22px; color: #ffffff; line-height: 19px}
+.advertLine3 {position: absolute; width: 140px; height: 45px; top: 298px; left: 25px; font-family: "ModernNAP-Display"; font-size: 22px; color: #ffffff; line-height: 19px}
+
 
 .advertMobile {display: none}
 .contentsliderVideo {width: 49%; margin-left: 7%; padding-bottom: 30.8%; position: relative;height: 0; margin-top: 11%}
@@ -77,6 +79,16 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 
 .videoslide {background-image: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/product_slide2.jpg); background-size: 100%}
 
+.slide1 .contentslidetext {width: 310px; padding:20px 40px 20px 20px; height: 380px; left: 550px }
+.slide1 .contentslidetitle {margin-bottom:20px;}
+
+.slide2 .contentslidetext {width: 300px; padding:20px 40px; height: 254px; left: 532px; top:104px;  }
+.slide2 .contentslidetitle {margin-bottom:20px;}
+
+.slide3 .contentslidetitle {margin-bottom:10px;}
+.slide3 .contentslidetext {width: 350px; padding:10px; height: 400px; left: 550px }
+
+
 @media (max-width: 768px) {
   .advertMobile {width: 60%;margin: 0 auto 30px auto;border: 1px solid #cccccc;border-radius: 4px;font-family: gillsanslight;font-size: 13px;color: #000000;display: block;float: left;margin-left: 15%;padding: 5%;text-align: center;}
   .adidasAdvert {display: none}
@@ -85,8 +97,8 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 
 
 
-    .videooverlaytitle {font-size: 36px}
-.videooverlaysubtitle {font-size: 36px}
+    .videooverlaytitle {font-size: 18px}
+.videooverlaysubtitle {font-size: 16px}
 
 .leftarrowcontent, .rightarrowcontent  {height: 150px; background-position: center}
 .rightarrowcontent  {right:10px; left:auto;}
@@ -132,8 +144,8 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
 
 @media (max-width: 450px) {
 
-  .videooverlaytitle {font-size: 22px}
-.videooverlaysubtitle {font-size: 22px}
+  .videooverlaytitle {font-size:18px}
+.videooverlaysubtitle {font-size: 16px}
 
 }
 </style>
@@ -153,18 +165,20 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
     <div class="carouselholder">
         <div class="slidefadeleft"></div>
         <div class="slidefade"></div>
-        <a class="leftarrow" href="javascript:$('.carousel').slickPrev();"><a>
+        <a class="leftarrow" onclick="$('.carousel').slickPrev();"><a>
       <div class="carousel">
-        <div><a href="javascript:playlistJump(0)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/1.jpg" width="150px" height="84px" /><div class="slidetext">${message("video0.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(1)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/2.jpg" width="150px" height="84px" /><div class="slidetext">${message("video1.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(2)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/3.jpg" width="150px" height="84px" /><div class="slidetext">${message("video2.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(3)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/4.jpg" width="150px" height="84px" /><div class="slidetext">${message("video3.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(4)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/5.jpg" width="150px" height="84px" /><div class="slidetext">${message("video4.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(5)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/6.jpg" width="150px" height="84px" /><div class="slidetext">${message("video5.title_" + language)}</div></a></div>
-        <div><a href="javascript:playlistJump(6)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/7.jpg" width="150px" height="84px" /><div class="slidetext">${message("video6.title_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(0)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/1.jpg" width="150px" height="84px" /><div class="slidetext">${message("video0.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(1)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/2.jpg" width="150px" height="84px" /><div class="slidetext">${message("video1.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(2)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/3.jpg" width="150px" height="84px" /><div class="slidetext">${message("video2.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(3)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/4.jpg" width="150px" height="84px" /><div class="slidetext">${message("video3.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(4)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/5.jpg" width="150px" height="84px" /><div class="slidetext">${message("video4.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(5)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/6.jpg" width="150px" height="84px" /><div class="slidetext">${message("video5.overlaytitle_" + language)}</div></a></div>
+        <div><a href="javascript:playlistJump(6)"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/7.jpg" width="150px" height="84px" /><div class="slidetext">${message("video6.overlaytitle_" + language)}</div></a></div>
       </div>
-      <a class="rightarrow" href="javascript:$('.carousel').slickNext();"><a>
+      <a class="rightarrow" onclick="$('.carousel').slickNext();" ><a>
     </div>
+
+    <div class="wideTitle">${message("adidas_mobile_link_" + language)} </div>
 
     <div class="productHolder">
       <div class="adidasProducts">
@@ -172,15 +186,16 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
         <div class="adidasAdvert">
           <div class="advertLine1">${message("adidas_advertline1_" + language)}</div>
           <div class="advertLine2">${message("adidas_advertline2_" + language)}</div>
+          <div class="advertLine3">${message("adidas_advertline3_" + language)}</div>
         </div>
         <a class="advertMobile" href="#">${message("adidas_mobile_link_" + language)}</a>
       </div>
     </div>
 
     <div class="contentcarouselholder">
-      <a class="leftarrowcontent" href="javascript:$('.contentcarousel').slickPrev();"><a>
+      <a class="leftarrowcontent" onclick="$('.contentcarousel').slickPrev();"><a>
     <div class="contentcarousel">
-        <div class="contentslide"> 
+        <div class="contentslide slide1"> 
             <div class="imagearea1"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/product_slide1.jpg" style="width:100%; height:auto"></div>
             <div class="contentslidetext">
               <div class="contentslidetitle">${message("slide1.title_" + language)}</div>
@@ -188,7 +203,7 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
             </div>
         </div>
 
-        <div class="contentslide videoslide"> 
+        <div class="contentslide videoslide  slide2"> 
               <div class="contentsliderVideo"><iframe id="carouselVideo" width="853" height="480" src="" frameborder="0" allowfullscreen></iframe></div>
 
                <div class="contentslidetext">
@@ -197,7 +212,7 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
               </div>
         </div>
 
-        <div class="contentslide"> 
+        <div class="contentslide slide3"> 
             
                  <div class="imagearea2"><img src="/alfresco/nap/webAssets/webPage/Adidas-McCartney/product_slide3.jpg" style="width:100%; height:auto"></div>
 
@@ -208,7 +223,7 @@ body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.
        </div>
        
   </div>
-  <a class="rightarrowcontent" href="javascript:$('.contentcarousel').slickNext();"><a>
+  <a class="rightarrowcontent" onclick="$('.contentcarousel').slickNext();"><a>
       </div>
   </div>
     <script>
@@ -228,11 +243,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('adidasplayer', {
-  playerVars: {
-    listType:'playlist',
-    list: 'PLvb-ozNJbiMhzMDYcIo8HxpwNl-g4h534'
-  },
-         
+      
   events: {
     'onReady': onPlayerReady,
     'onStateChange': onPlayerStateChange
@@ -246,11 +257,20 @@ function onYouTubeIframeAPIReady() {
 
 
       function onPlayerReady(event) {
-        console.log('ready')
-        event.target.playVideo()
-        setTimeout(stopVideo, 10);
+
+    
+
+        event.target.cuePlaylist({list: "PLvb-ozNJbiMhzMDYcIo8HxpwNl-g4h534", index: 0, startSeconds: 0});
+
+      
+        //event.target.playVideo()
+        //setTimeout(stopVideo, 10);
 
         var videoId = getParameterByName("videoId");
+
+      
+
+   
 
 
   if (videoId != "") {
@@ -265,7 +285,7 @@ function onYouTubeIframeAPIReady() {
 
 
       function onPlayerStateChange(event) {
-          console.log('change')
+         
         //if (event.data == YT.PlayerState.PLAYING && !done) {
         //  setTimeout(stopVideo, 600);
         //  done = true;
@@ -547,7 +567,7 @@ function loadCarousels() {
       if (e.currentSlide == 1) {
         $(".leftarrowcontent").fadeIn()
         $(".rightarrowcontent").fadeIn()
-        $("#carouselVideo").attr('src', 'http://www.youtube.com/embed/4u5VQlBENB8');
+        $("#carouselVideo").attr('src', 'http://www.youtube.com/embed/hBIPh_hC59k');
       }
 
       if (e.currentSlide == 2) {
@@ -593,8 +613,13 @@ $(document).ready(function(){
   setAspectRatios();
   loadCarousels();
   loadProducts();
+
+
+ 
   
 $(window).load(function() {
+
+   
   
   if ($('.service-messages-extended').length < 1) {
     $("body").css('background-position', 'center 108px');
