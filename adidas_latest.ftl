@@ -6,7 +6,7 @@
 
 
 <style type="text/css">
-
+.hello {display:none}
 /* Full width content */
 body {background: url(/alfresco/nap/webAssets/webPage/Adidas-McCartney/headerbg.jpg) center 144px repeat-x; background-color: none}
 #main {width:100%;}
